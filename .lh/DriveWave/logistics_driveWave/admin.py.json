@@ -1,0 +1,18 @@
+{
+    "sourceFile": "DriveWave/logistics_driveWave/admin.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735667906167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735667906167,
+            "name": "Commit-0",
+            "content": "from django.contrib import admin\nfrom .models import Vehicle, Route, Delivery\n\nadmin.site.register(Vehicle)\nadmin.site.register(Route)\nadmin.site.register(Delivery)\n"
+        }
+    ]
+}

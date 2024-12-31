@@ -1,0 +1,18 @@
+{
+    "sourceFile": "DriveWave/logistics_driveWave/views.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1735667827328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1735667827328,
+            "name": "Commit-0",
+            "content": "from django.shortcuts import render\nfrom .models import Route\n\ndef home(request):\n    routes = Route.objects.all()\n    return render(request, 'logistics/home.html', {'routes': routes})\n\ndef about(request):\n    return render(request, 'logistics/about.html')\n\ndef air_services(request):\n    return render(request, 'logistics/air_services.html')\n\ndef road_services(request):\n    return render(request, 'logistics/road_services.html')\n\ndef ocean_services(request):\n    return render(request, 'logistics/ocean_services.html')\n\ndef all_services(request):\n    return render(request, 'logistics/all_services.html')\n\n\ndef price_table(request):\n    return render(request, 'logistics/price_table.html')\n\ndef team(request):\n    return render(request, 'logistics/team.html')\n\ndef contact(request):\n    return render(request, 'logistics/contact.html')\n\ndef blog(request):\n    return render(request, 'logistics/blog.html')\n\ndef blog_comment(request):\n    return render(request, 'logistics/blog_comment.html')"
+        }
+    ]
+}
