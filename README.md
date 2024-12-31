@@ -1,9 +1,9 @@
 DriveWave Transport System APP
 
-DriveWave Transport System is a Django-based web application designed for a luxurious spa experience. This project includes features for managing spa services, customer bookings, and an enhanced admin interface using the Jazzmin theme.
+DriveWave Transport System is a Django-based web application designed for a luxurious DriveWave experience. This project includes features for managing DriveWave services, customer bookings, and an enhanced admin interface using the Jazzmin theme.
 
 Features
-Service Management: Easily manage and display available spa services.
+Service Management: Easily manage and display available DriveWave services.
 Booking System: Customers can book services online.
 Admin Interface: Customizable admin panel using the Jazzmin theme.
 User-friendly UI: Simple and elegant design to ensure a smooth user experience.
@@ -15,13 +15,13 @@ User-friendly UI: Simple and elegant design to ensure a smooth user experience.
 
 # DriveWave
 
-DriveWave is a Django-based transport logistics application designed to simplify and streamline logistics operations. With a focus on efficiency and reliability, TransVoyage offers tools to manage routes, vehicles, and logistics services.
+DriveWave is a Django-based transport logistics application designed to simplify and streamline logistics operations. With a focus on efficiency and reliability, DriveWave offers tools to manage routes, vehicles, and logistics services.
 
 ---
 
 ## Features
 
-- **About Page**: Learn more about TransVoyage's mission and values.
+- **About Page**: Learn more about DriveWave's mission and values.
 - **Services Page**: Explore the various logistics services offered.
 - **Route Management**: Manage and track available transport routes.
 - **Customizable Templates**: Easy-to-customize HTML templates for all pages.
@@ -32,14 +32,14 @@ DriveWave is a Django-based transport logistics application designed to simplify
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/transvoyage.git
-   cd transvoyage
+   git clone https://github.com/your-username/DriveWave.git
+   cd DriveWave
    ```
 ### 2. Set Up Virtual Environment
 Create and activate a virtual environment:
 ```bash
-python -m venv velvet_aura_env
-source env/bin/activate  # On Windows, use velvet_aura_env\Scripts\activate
+python -m venv
+source env/bin/activate  # On Windows, use env\Scripts\activate
 ```
 
 ### 3. Install Dependencies
@@ -69,7 +69,7 @@ python manage.py runserver
 ```
 
 ### 5. Admin Interface
-The admin interface uses the Jazzmin theme for an enhanced user experience. You can manage the TransVoyage's services and bookings by logging in to the admin panel at:
+The admin interface uses the Jazzmin theme for an enhanced user experience. You can manage the DriveWave's services and bookings by logging in to the admin panel at:
 ``` bash
 http://127.0.0.1:8000/admin/
 ```
@@ -77,14 +77,30 @@ http://127.0.0.1:8000/admin/
 ### Project Structure
 
 transvoyage/
-├── transvoyage/         # Main project folder containing settings and configurations
-├── logistics/           # Django app that manages logistics services and routes
-│   ├── templates/logistics/   # Contains HTML templates for rendering logistics pages
-│   ├── static/logistics/      # Contains static files like CSS and images
-│   ├── models.py         # Models for services and routes
-│   ├── views.py          # Views for handling requests
-├── requirements.txt      # Lists all Python dependencies for the project
-├── manage.py             # Entry point for Django commands
+├── transvoyage/        
+
+# Main project folder containing settings and configurations
+├── logistics/        
+
+# Django app that manages logistics services and routes
+│   ├── templates/logistics/  
+
+# Contains HTML templates for rendering logistics pages
+│   ├── static/logistics/   
+
+# Contains static files like CSS and images
+│   ├── models.py        
+
+# Models for services and routes
+│   ├── views.py       
+
+# Views for handling requests
+├── requirements.txt     
+
+# Lists all Python dependencies for the project
+├── manage.py           
+
+# Entry point for Django commands
 
 
 ### Technologies Used
@@ -96,7 +112,7 @@ transvoyage/
 
 ### Customizations
 1. The admin interface is customized using the Jazzmin theme.
-2. You can customize the spa services and booking models in the TransVoyage/models.py file.
+2. You can customize the DriveWave services and booking models in the DriveWave/models.py file.
 3. The JAZZMIN_SETTINGS in settings.py can be modified to change the admin interface’s branding.
 
 ### Contributing
